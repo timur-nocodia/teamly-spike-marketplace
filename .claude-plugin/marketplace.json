@@ -1,7 +1,19 @@
 {
   "name": "teamly-spike",
-  "owner": { "name": "Teamly spike (test)" },
+  "owner": {
+    "name": "Teamly spike (test)"
+  },
   "plugins": [
-    { "name": "spike", "source": "./plugins/spike", "description": "Spike T3: update mechanics test plugin" }
-  ]
+    {
+      "name": "spike",
+      "source": "./plugins/spike",
+      "description": "Spike T3: update mechanics test plugin"
+    },
+    {
+      "name": "spike-b",
+      "source": "./plugins/spike-b",
+      "description": "Spike T2b: second plugin for install via bundled binary"
+    }
+  ],
+  "description": "Throwaway marketplace for Claude plugin install/update spikes. No product code."
 }
