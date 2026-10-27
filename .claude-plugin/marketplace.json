@@ -1,0 +1,7 @@
+{
+  "name": "teamly-spike",
+  "owner": { "name": "Teamly spike (test)" },
+  "plugins": [
+    { "name": "spike", "source": "./plugins/spike", "description": "Spike T3: update mechanics test plugin" }
+  ]
+}
